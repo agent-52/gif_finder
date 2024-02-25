@@ -5,10 +5,12 @@ body{
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.326);
+  background-color: black;
+  color: white;
 }
 .searchBar{
   display: flex;
+  gap: 1rem;
 }
 input{
   width: 400px;
@@ -17,6 +19,7 @@ input{
   border-radius: 1rem;
   font-weight: bold;
   border: 3px solid yellow;
+  outline: none;
 }
 .searchButton{
   padding-block: 0.3rem;
@@ -25,4 +28,5 @@ input{
   border-radius: 1rem;
   color: yellow;
   background-color: black;
+  border: 2px solid yellow;
 }
