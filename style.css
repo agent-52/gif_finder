@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.326);
+}
+.searchBar{
+  display: flex;
+}
+input{
+  width: 400px;
+  padding-block: 0.3rem;
+  font-size: larger;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: 3px solid yellow;
+}
+.searchButton{
+  padding-block: 0.3rem;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 1rem;
+  color: yellow;
+  background-color: black;
+}
